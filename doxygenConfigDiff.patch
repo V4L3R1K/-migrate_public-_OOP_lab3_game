@@ -1,0 +1,38 @@
+--- doxygenConfigDefault	2024-12-26 15:50:05.733496200 +0300
++++ doxygenConfig	2024-12-26 15:18:06.641981500 +0300
+@@ -42,7 +42,7 @@
+ # title of most generated pages and in a few other places.
+ # The default value is: My Project.
+ 
+-PROJECT_NAME           = "My Project"
++PROJECT_NAME           = "OOP Lab 3"
+ 
+ # The PROJECT_NUMBER tag can be used to enter a project or revision number. This
+ # could be handy for archiving the generated documentation or if some version
+@@ -74,7 +74,7 @@
+ # entered, it will be relative to the location where Doxygen was started. If
+ # left blank the current directory will be used.
+ 
+-OUTPUT_DIRECTORY       =
++OUTPUT_DIRECTORY       = "./doxygen"
+ 
+ # If the CREATE_SUBDIRS tag is set to YES then Doxygen will create up to 4096
+ # sub-directories (in 2 levels) under the output directory of each output format
+@@ -119,7 +119,7 @@
+ # Swedish, Turkish, Ukrainian and Vietnamese.
+ # The default value is: English.
+ 
+-OUTPUT_LANGUAGE        = English
++OUTPUT_LANGUAGE        = Russian
+ 
+ # If the BRIEF_MEMBER_DESC tag is set to YES, Doxygen will include brief member
+ # descriptions after the members that are listed in the file and class
+@@ -965,7 +965,7 @@
+ # spaces. See also FILE_PATTERNS and EXTENSION_MAPPING
+ # Note: If this tag is empty the current directory is searched.
+ 
+-INPUT                  =
++INPUT                  = "./src/model/entity.hpp" "./src/model/matrix.hpp"
+ 
+ # This tag can be used to specify the character encoding of the source files
+ # that Doxygen parses. Internally Doxygen uses the UTF-8 encoding. Doxygen uses
